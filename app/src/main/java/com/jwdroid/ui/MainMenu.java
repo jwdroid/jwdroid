@@ -45,7 +45,7 @@ public class MainMenu extends AppCompatActivity {
             dir.mkdir();
 
 		 /*try {
-			AppDbOpenHelper.copyDataBase();
+            AppDbOpenHelper.copyDataBase();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -92,6 +92,14 @@ public class MainMenu extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainMenu.this, BackupList.class);
                 startActivity(intent);
+            }
+        });
+        findViewById(R.id.fab).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainMenu.this, Session.class);
+                intent.putExtra("session", 0);
+                startActivityForResult(intent, 1);
             }
         });
 
@@ -165,8 +173,6 @@ public class MainMenu extends AppCompatActivity {
         super.onResume();
         ContributeDialog.check(this);
     }
-
-
 
 
 }
