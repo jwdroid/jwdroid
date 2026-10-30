@@ -31,4 +31,4 @@ Once subscribed, you will receive test releases via Google Play as usual updates
 
 Leave feedback and follow the news on the [JW Droid Google+ Community](https://plus.google.com/communities/112371364498094492171).
 
-GitHub: https://github.com/jwdroid/jwdroid/
+GitHub: [https://github.com/jwdroid/jwdroid/](https://github.com/jwdroid/jwdroid/)
