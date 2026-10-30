@@ -1,4 +1,6 @@
 # JW Droid
+> DISCLAIMER: This application has been discontinued and is no longer supported.
+
 Feature-packed service organizer for Jehovah's Witnesses that allows to take notes, conveniently view and arrange territories and interested persons, automatically track statistics and field service time.
 
 Features:
@@ -28,3 +30,5 @@ JW Droid has a public beta testing channel on Google Play. In order to participa
 Once subscribed, you will receive test releases via Google Play as usual updates. These updates are available only for people who explicitly subscribed to the beta channel.
 
 Leave feedback and follow the news on the [JW Droid Google+ Community](https://plus.google.com/communities/112371364498094492171).
+
+GitHub: https://github.com/jwdroid/jwdroid/
